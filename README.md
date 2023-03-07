@@ -1,4 +1,4 @@
-# C-Prime
+# Suite-C
 A collection of scripts used to patch and setup first-booted Windows systems.
 
 ## Goals
