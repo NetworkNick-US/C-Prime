@@ -1,0 +1,139 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20230303101850
+Username: DESKTOP-NCMKEM3\HomePC
+RunAs User: DESKTOP-NCMKEM3\HomePC
+Configuration Name:
+Machine: DESKTOP-NCMKEM3 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 24248
+PSVersion: 5.1.19041.2364
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.2364
+BuildVersion: 10.0.19041.2364
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\scriptlog.log
+This is some output from my script.
+
+
+    Directory: C:\Windows
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         12/7/2019   4:51 AM                addins
+d-----         7/21/2021   7:14 AM                appcompat
+d-----          3/1/2023   6:16 PM                apppatch
+d-----          3/2/2023  10:10 AM                AppReadiness
+d-r-s-          3/2/2023   4:22 PM                assembly
+d-----          3/1/2023   6:16 PM                bcastdvr
+d-----         12/7/2019   4:31 AM                Boot
+d-----         12/7/2019   4:14 AM                Branding
+d-----          3/3/2023   9:48 AM                CbsTemp
+d-----         12/7/2019   5:16 AM                Containers
+d-----          7/4/2021  12:36 PM                CSC
+d-----         12/7/2019   4:14 AM                Cursors
+d-----          2/7/2023   5:50 PM                debug
+d-----         12/7/2019   4:31 AM                diagnostics
+d-----        10/14/2021   7:11 PM                DiagTrack
+d-----         12/7/2019   4:50 AM                DigitalLocker
+d---s-         12/7/2019   4:14 AM                Downloaded Program Files
+d-----          3/1/2023   6:16 PM                en-US
+d-r-s-          3/1/2023   6:16 PM                Fonts
+d-----         12/7/2019   4:14 AM                GameBarPresenceWriter
+d-----         12/7/2019   4:31 AM                Globalization
+d-----         12/7/2019   4:50 AM                Help
+d-----         12/7/2019   4:31 AM                IdentityCRL
+d-----         7/20/2021   6:05 PM                IME
+d-r---          3/1/2023   6:16 PM                ImmersiveControlPanel
+d-----          3/2/2023   3:56 PM                INF
+d-----         12/7/2019   4:14 AM                InputMethod
+d-----         12/7/2019   4:14 AM                L2Schemas
+d-----         2/14/2023   4:11 PM                LiveKernelReports
+d-----          3/1/2023   9:45 AM                Logs
+d-r-s-         9/15/2021   6:45 PM                Media
+d-r---          3/2/2023   7:06 PM                Microsoft.NET
+d-----         12/7/2019   4:14 AM                Migration
+d-----        11/13/2022   9:21 PM                Minidump
+d-----         12/7/2019   4:14 AM                ModemLogs
+d-----         12/7/2019   4:52 AM                OCR
+d-r---         12/7/2019   4:14 AM                Offline Web Pages
+d-----         1/30/2023   2:53 PM                Panther
+d-----         12/7/2019   4:14 AM                Performance
+d-----         12/7/2019   4:31 AM                PLA
+d-----          3/1/2023   6:16 PM                PolicyDefinitions
+d-----          3/3/2023   9:47 AM                Prefetch
+d-r---         7/25/2022   9:39 PM                PrintDialog
+d-----          3/1/2023   6:16 PM                Provisioning
+d-----         12/7/2019   4:31 AM                Registration
+d-----         12/7/2019   4:54 AM                RemotePackages
+d-----         12/7/2019   4:14 AM                rescache
+d-----         12/7/2019   4:31 AM                Resources
+d-----         12/7/2019   4:14 AM                SchCache
+d-----        11/29/2022  11:06 PM                schemas
+d-----         12/7/2019   4:54 AM                security
+d-----         7/20/2021   6:07 PM                ServiceProfiles
+d-----          3/3/2023   8:46 AM                ServiceState
+d-----         6/17/2022  10:38 AM                servicing
+d-----         7/20/2021   6:20 PM                Setup
+d-----         7/25/2022   9:39 PM                ShellComponents
+d-----         8/12/2022   4:32 PM                ShellExperiences
+d-----         7/20/2021  10:20 PM                ShellNew
+d-----         12/7/2019   4:31 AM                SKB
+d-----          2/7/2023   8:43 AM                SmartFix
+d-----        12/19/2022   3:30 PM                SoftwareDistribution
+d-----         12/7/2019   4:14 AM                Speech
+d-----         12/7/2019   4:14 AM                Speech_OneCore
+d-----         12/7/2019   4:14 AM                System
+d-----          3/3/2023   8:52 AM                System32
+d-----          3/1/2023   6:16 PM                SystemApps
+d-----          3/1/2023   6:16 PM                SystemResources
+d-----        12/16/2021  11:57 PM                SystemTemp
+d-----          3/1/2023   6:16 PM                SysWOW64
+d-----         12/7/2019   4:14 AM                TAPI
+d-----         2/12/2022   1:14 PM                Tasks
+d-----          3/3/2023  10:09 AM                Temp
+d-----          7/4/2021   1:00 PM                TextInput
+d-----         12/7/2019   4:14 AM                tracing
+d-----          2/4/2022  10:00 PM                twain_32
+d-----         12/7/2019   4:14 AM                Vss
+d-----         12/7/2019   4:14 AM                WaaS
+d-----         12/7/2019   4:31 AM                Web
+d-----          3/3/2023   9:48 AM                WinSxS
+-a----         5/16/2022   5:23 PM          13576 acpimof.dll
+-a----         9/17/2021   7:21 PM          81408 bfsvc.exe
+-a--s-          3/3/2023   8:48 AM          67584 bootstat.dat
+-a----         7/20/2021   6:24 PM           7623 diagerr.xml
+-a----         7/20/2021   6:24 PM           7623 diagwrn.xml
+-a----          3/1/2023   9:50 AM        5253864 explorer.exe
+-a----        10/13/2022   3:56 PM        1075712 HelpPane.exe
+-a----         12/7/2019   4:09 AM          18432 hh.exe
+-a----         12/7/2019   4:08 AM          43131 mib.bin
+-a----         8/11/2022   5:43 PM         201216 notepad.exe
+-a----         1/12/2023   3:17 AM           1951 NvContainerRecovery.bat
+-a----          3/3/2023   8:46 AM          30652 PFRO.log
+-a----         12/7/2019   4:10 AM          30831 Professional.xml
+-a----         6/28/2021   7:07 PM         924392 py.exe
+-a----         6/28/2021   7:08 PM          57064 pyshellext.amd64.dll
+-a----         6/28/2021   7:07 PM         924904 pyw.exe
+-a----         7/20/2021   6:02 PM         370176 regedit.exe
+-a----          3/3/2023   8:46 AM         540684 setupact.log
+-a----          2/7/2023   5:50 PM              0 setuperr.log
+-a----          3/1/2023   9:50 AM         163840 splwow64.exe
+-a----         3/19/2019  12:49 AM            219 system.ini
+-a----         12/7/2019   4:10 AM          65024 twain_32.dll
+-a----         8/24/2021   7:08 PM          35099 unins000.dat
+-a----         8/24/2021   7:07 PM        1186175 unins000.exe
+-a----         3/19/2019  12:49 AM             92 win.ini
+-a----          3/3/2023   8:46 AM            276 WindowsUpdate.log
+-a----         12/7/2019   4:10 AM          11776 winhlp32.exe
+-a----         12/7/2019   4:53 AM         316640 WMSysPr9.prx
+-a----         12/6/2019   4:29 PM          11264 write.exe
+**********************
+Windows PowerShell transcript end
+End time: 20230303101851
+**********************
