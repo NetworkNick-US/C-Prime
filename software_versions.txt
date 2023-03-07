@@ -1,0 +1,4 @@
+Python 3.9.6 Executables (64-bit)=3.9.6150.0
+Google Chrome=110.0.5481.178
+Adobe Acrobat DC=456456456.007.20100
+Agility Driver=10101.999.1.1.1
